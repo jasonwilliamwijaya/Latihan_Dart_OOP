@@ -1,4 +1,5 @@
 class Person {
-  String? nama ='';
-  String? tanggal_lahir='';
+  String? _nama = '';
+  String? _tanggal_lahir = '';
+  Person(this._nama, this._tanggal_lahir);
 }
