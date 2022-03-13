@@ -9,4 +9,20 @@ class Pegawai extends Person {
     this.nip = nip;
     this.gaji_dasar = gaji_dasar;
   }
+
+  set set_nip(String dtNIP) {
+    nip = dtNIP;
+  }
+
+  set set_gaji_dasar(int dtGajiDasar) {
+    gaji_dasar = dtGajiDasar;
+  }
+
+  get get_nip {
+    return nip;
+  }
+
+  get get_gaji_dasar {
+    return nip;
+  }
 }
