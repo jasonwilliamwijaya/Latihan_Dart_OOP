@@ -1,6 +1,6 @@
-class Tugas {
-  String tugas() {
-    return '';
+mixin Mengajar {
+  void mengajar() {
+    print('Bertugas untuk mengajar');
   }
 }
 
